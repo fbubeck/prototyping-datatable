@@ -7,6 +7,7 @@
         item-key="name"
         show-select
         class="elevation-1"
+        :items-per-page="5"
     >
     <template v-slot:top>
       <v-switch
