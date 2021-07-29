@@ -35,6 +35,14 @@
   </v-data-table>
 </template>
 
+<style>
+  .v-data-table{
+    width: 79%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+</style>
+
 <script>
   export default {
     data () {
@@ -96,7 +104,7 @@
             category: 'Project xy',
             responsibleUser: 'Max Mustermann',
             creationDate: '2021/07/13',
-            status: 'stopped',
+            status: 'finished',
             description: 'This is a Test Process',
           },
           {

@@ -1,13 +1,5 @@
 <template>
   <v-app>
-    <v-app-bar
-      app
-      color="primary"
-      dark
-    >
-
-    </v-app-bar>
-
     <v-main>
       <div id="app">
       <img src="./assets/Vue App Header.png" class="center">
@@ -38,6 +30,6 @@ export default {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 80%;
   }
 </style>
